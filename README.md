@@ -1,6 +1,6 @@
 ## OKCoin Alert
 
-This is a tool to monitor trading on [okcoin](https://www.okcoin.com) which is almost the biggest ฿/Ł/￥ exchange platform of China.
+This is a tool to monitor trading on [okcoin](https://www.okcoin.com) which is almost the biggest ฿/Ł/¥ exchange platform of China.
 
 ### Requirements
 
@@ -9,7 +9,7 @@ This is a tool to monitor trading on [okcoin](https://www.okcoin.com) which is a
 
 ### License
 
-**OkCoin Alert** is released under a **MIT License**:
+OkCoin Alert is licensed under the MIT License:
 
     Copyright (C) 2014 by Sumory Wu <sumory.wu@gmail.com>
 

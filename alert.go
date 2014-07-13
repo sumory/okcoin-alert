@@ -108,31 +108,30 @@ func main() {
 
 		for now := range t {
 			count++
-//			if count > 3 {
-//				break
-//			}
+			//			if count > 3 {
+			//				break
+			//			}
 
 			fmt.Println("\n", now)
-
 
 			btcLast, _ := dealBTC()
 			ltcLast, _ := dealLTC()
 			//fmt.Println("btcLast:", btcLast)
 			//fmt.Println("ltcLast:", ltcLast)
 
-			//						if err1 == nil {
-			//							//btcLastValue,_ := strconv.ParseFloat(btcLast.(string), 64)
-			//							fmt.Println("btcLast:", btcLast)
-			//						} else {
-			//							fmt.Println("err1:", err1)
-			//						}
+			//			if err1 == nil {
+			//				//btcLastValue,_ := strconv.ParseFloat(btcLast.(string), 64)
+			//				fmt.Println("btcLast:", btcLast)
+			//			} else {
+			//				fmt.Println("err1:", err1)
+			//			}
 			//
-			//						if err2 == nil {
-			//							ltcLastValue, _ := strconv.ParseFloat(ltcLast, 64)
-			//							fmt.Println("ltcLast:", ltcLastValue)
-			//						} else {
-			//							fmt.Println("err2:", err2)
-			//						}
+			//			if err2 == nil {
+			//				ltcLastValue, _ := strconv.ParseFloat(ltcLast, 64)
+			//				fmt.Println("ltcLast:", ltcLastValue)
+			//			} else {
+			//				fmt.Println("err2:", err2)
+			//			}
 
 			SendSMS("btcLast: " + btcLast + " ltcLast: " + ltcLast)
 		}
